@@ -575,6 +575,44 @@
 					width: 2.5em;
 				}
 
+		ul.resumee-icons {
+			list-style: none;
+				margin: 0 0 1.25em 0;
+			padding-left: 0;
+		}
+
+			ul.resumee-icons li {
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 0 0 0;
+				padding: 0.35em 0 0 3.5em;
+				position: relative;
+				width: 48%;
+			}
+
+				ul.resumee-icons li:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.resumee-icons li:before {
+					background: #4acaa8;
+					border-radius: 100%;
+					color: #ffffff;
+					display: block;
+					height: 2.5em;
+					left: 0;
+					line-height: 2.5em;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 2.5em;
+				}
+
 		ul.icons {
 			cursor: default;
 			list-style: none;
@@ -664,6 +702,25 @@
 	dl {
 		margin: 0 0 2.25em 0;
 	}
+
+	.work-entry {
+		background-color: #fafafa;
+		border-radius: 3px;
+		-webkit-box-shadow: 6px 6px 7px -2px rgba(0, 0, 0, 0.22);
+		-moz-box-shadow: 6px 6px 7px -2px rgba(0, 0, 0, 0.22);
+		box-shadow: 6px 6px 7px -2px rgba(0, 0, 0, 0.22);
+	}
+	.work-period {
+		position: relative;
+		top: -5px;
+	}
+	.work-entry ul.resumee-icons li:before {
+		top: 10px;
+	}
+	.work-entry ul.resumee-icons li {
+		width: 100%
+	}
+	 
 
 /* Table */
 
